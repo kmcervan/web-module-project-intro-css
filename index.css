@@ -1,0 +1,173 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+
+
+
+/*start of my CSS*/
+
+/*Basics*/
+body{
+    margin:auto;
+    width:90%;  
+}
+h1{
+    font-family: 'Chelsea Market', cursive;
+    font-size:50px;
+    margin-top:-220px;
+    margin-left:410px;
+}
+
+p, h4, .a{
+    font-family: 'Roboto Mono', monospace;
+}
+
+h4{
+    font-size:15px;
+    text-align:center;
+    margin:2%;
+    margin-left:300px;
+    font-weight:bold;
+}
+span{
+    font-weight:bold;
+}
+
+/*top Nav*/
+nav{
+    /* width:100%; */
+    padding:4%;
+    /* margin-left:200px; */
+    
+}
+
+.a{
+    color:white;
+    font-size: 20px;
+    margin-left:100px;
+    width:150px;
+    height:auto;
+    padding:5px 15px;
+    /* border:2px solid black; */
+    text-decoration:none;
+    display:inline-block;
+    text-align:center;
+    border-radius:15px;
+}
+
+.b {
+    background-color:#FF764E;
+}
+
+.c {
+    background-color:#5ED3EB;
+}
+
+.d {
+    background-color:#FFCD69;
+}
+
+.nav-top a{
+    font-size:20px;
+    font-family: 'Roboto Mono', monospace;
+    display:inline-block;
+}
+
+/* header */
+header img{
+    width: 260px;
+    height: 260px;
+    border-radius: 50%;
+    margin-left:80px;
+}
+
+.top {
+    color:white;
+    font-size:16px;
+    background-color:#DDB9A3;
+    padding:1%;
+    text-align:center;
+    margin-top:100px;
+    margin-left:50px;
+    margin-right:50px;
+}
+
+/* Middle Section with 2 pictures*/
+
+.mid{
+    margin:auto;
+    width:auto;
+    /* border:2px solid black; */
+    text-align:center;
+    padding: 35px 0px;
+}
+
+.pics{
+    width:100px;
+    height:100px;
+    margin-bottom:10px;
+}
+
+.mid p{
+    font-size:10px;
+}
+
+/* bottom */
+footer img{
+    width:100%;
+    height:200px;
+}
+
+footer nav{
+    background-color:#F9E7DC;
+    /* border:3px solid black;*/
+} 
